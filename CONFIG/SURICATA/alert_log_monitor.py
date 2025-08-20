@@ -113,8 +113,8 @@ def follow_log(filename):
 🎯 Đến: {data['dst']}
 """
                             send_email(
-                                "youngnvk@gmail.com",
-                                "khaicuon18@gmail.com",
+                                "your_mail@gmail.com",
+                                "your_mail@gmail.com",
                                 f"Cảnh báo IDPS - Tấn công: {data['msg']}",
                                 email_body.strip()
                             )
